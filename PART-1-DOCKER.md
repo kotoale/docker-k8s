@@ -119,37 +119,37 @@ Hands-on practice quest #00: prerequisites sound-check (15+5)
 ``` 
 
 - [ ] When участники *именуют сценарии*, выполняют команды и анализируют их вывод и поведение
-- Сценарий "Как ...?"
+- Сценарий "Как посмотреть версию докера, system-wide information, docker disk usage?"
 ```shell
-docker version # TODO: собственные пометки участников для будущего использования в проектах
-docker system info
-docker system df
+docker version # Show docker version
+docker system info # Display system-wide information
+docker system df # Show docker disk usage
 ```
 
-- Сценарий "Как ...?"
+- Сценарий "Как сделать login/logout в registry?"
 ```shell
-docker logout
-docker login {{ registry-host }}
+docker logout # logout from registry
+docker login {{ registry-host }} # login into registry
 ```
 
-- Сценарий "Как ...?"
+- Сценарий "Как скачать образ из registry?"
 ```shell
-docker image pull {{ os-registry }}/alpine:3.14
-docker system df
+docker image pull {{ os-registry }}/alpine:3.14 # скачать образ из артифактори
+docker system df # Show docker disk usage
 ````
 
-- Сценарий "Как ...?"
+- Сценарий "Как вывечти список активных (всех) контейнеров?"
 ```shell
-docker container ls [--all]
-docker container run --name demo -it {{ os-registry }}/alpine:3.14
+docker container ls [--all] # See list of containers 
+docker container run --name demo -it {{ os-registry }}/alpine:3.14 # Start a container in interactive mode
 /# cat /etc/os-release
 /# exit 
 ```
 
-- Сценарий "Как ...?"
+- Сценарий "Как удалить контейнер?"
 ```shell
-docker container ls [--all]
-docker container rm [--force] demo
+docker container ls [--all] # See list of containers 
+docker container rm [--force] demo # Remove a container
 ```
 
 - [ ] Then участники делятся проблемами и отвечают на вопросы
