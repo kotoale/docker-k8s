@@ -110,7 +110,7 @@ Hands-on practice quest #00: prerequisites sound-check (15+5)
 - Hint: [docker cli reference](https://docs.docker.com/engine/reference/commandline/docker/)
 - Hint: при работе в терминале используйте `Tab` и `↑` для автоподстановки значений
 
-- [+] "Как описать сценарий использования команд?"
+- [ ] "Как описать сценарий использования команд?"
 ```shell
 В общем случае:
 - предварительные команды подготовки системы к действию
@@ -118,7 +118,7 @@ Hands-on practice quest #00: prerequisites sound-check (15+5)
 - команды проверки успешности и корректности действия 
 ``` 
 
-- [+] When участники *именуют сценарии*, выполняют команды и анализируют их вывод и поведение
+- [ ] When участники *именуют сценарии*, выполняют команды и анализируют их вывод и поведение
 - Сценарий "Как посмотреть версию докера, system-wide information, docker disk usage?"
 ```shell
 docker version # Show docker version
@@ -152,7 +152,7 @@ docker container ls [--all] # See list of containers
 docker container rm [--force] demo # Remove a container
 ```
 
-- [+] Then участники делятся проблемами и отвечают на вопросы
+- [ ] Then участники делятся проблемами и отвечают на вопросы
 - Как проименовали сценарии?
 - Успешна ли сконфигурирована система для использования docker?
 - Какая версия API? 3.3.1
